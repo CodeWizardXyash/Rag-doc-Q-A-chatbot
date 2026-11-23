@@ -1,0 +1,16 @@
+# --- Backend ---
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9      # required by FastAPI for file uploads
+pydantic>=2.7
+pydantic-settings>=2.3
+pypdf>=4.2
+chromadb>=0.5.5
+
+# --- LLM SDKs (install both; only the one set in LLM_PROVIDER is used) ---
+google-genai>=1.0
+openai>=1.40
+
+# --- Frontend ---
+streamlit>=1.36
+requests>=2.32
